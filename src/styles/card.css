@@ -18,8 +18,12 @@ h3 {
 
 .author,
 .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 1rem;
   font-size: 0.9rem;
 }
@@ -40,6 +44,8 @@ h3 {
 
 .button-area {
   margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
 }

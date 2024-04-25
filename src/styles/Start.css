@@ -1,10 +1,18 @@
 .start {
   padding: 2rem;
   height: 100dvh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /* flex-direction: column; */
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.125)), to(rgba(0, 0, 0, 0.158))),
+    url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.158)),
+    url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.158)),
     url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg");
   background-size: cover;
