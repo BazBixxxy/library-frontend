@@ -25,8 +25,12 @@
 }
 
 .library {
-  padding: 0.7rem;
+  padding: 0.8rem;
   color: var(--white-text);
   background-color: var(--standard-color);
   border-radius: 10px;
+}
+
+.library:hover {
+  background-color: var(--hover-color);
 }
